@@ -7,18 +7,42 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const slidesData = [
   {
     backgroundImage:
-      'url("/images/main-slider/slide6-1.jpg") center center no-repeat',
-    title: "Solar Wind Power Technology",
+      'url("/images/banner/banner5.jpeg") center center no-repeat',
+    title: "Clear View Living",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Enjoy natural light and uninterrupted views with our quality sliding windows.",
     buttons: ["ABOUT US", "SERVICES"],
   },
   {
     backgroundImage:
-      'url("/images/main-slider/slide6-2.jpg") center center no-repeat',
-    title: "Solar Wind Power Technology",
+      'url("/images/banner/banner2.jpeg") center center no-repeat',
+    title: "Premium Sliding Windows",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.",
+      "Enhance your space with durable, smooth, and elegant sliding windows.",
+    buttons: ["ABOUT US", "SERVICES"],
+  },
+  {
+    backgroundImage:
+      'url("/images/banner/banner3.jpeg") center center no-repeat',
+    title: "Elegant Window Designs",
+    description:
+      "Modern sliding solutions that add beauty and functionality to any room.",
+    buttons: ["ABOUT US", "SERVICES"],
+  },
+  {
+    backgroundImage:
+      'url("/images/banner/banner4.jpeg") center center no-repeat',
+    title: "Strong & Stylish",
+    description:
+      "Built to last, our windows combine strength with a sleek appearance.",
+    buttons: ["ABOUT US", "SERVICES"],
+  },
+  {
+    backgroundImage:
+      'url("/images/banner/banner1.jpeg") center center no-repeat',
+    title: "Crafted for Comfort",
+    description:
+      "Designed to bring ventilation, style, and comfort to your home.",
     buttons: ["ABOUT US", "SERVICES"],
   },
 ];

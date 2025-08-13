@@ -64,11 +64,11 @@ export default function Footer6() {
                     Phone Numbers
                   </h5>
                   <p className="m-b0 op7">
-                    Mobile : <a href="tel:+4733378901">+00 234 678 9012</a>
+                    Mobile : <a href="tel:+91 7700005459">+91 7700005459</a>
                   </p>
-                  <p className="op7">
+                  {/* <p className="op7">
                     Phone : <a href="tel:+4733378901">+0 1234 5678 90</a>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>

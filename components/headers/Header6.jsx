@@ -6,6 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { socialLinks } from "@/data/socials";
 import { toggleMobileMenu } from "@/utlis/toggleMobileMenu";
+import Customnav from "./component/Customnav";
 export default function Header6() {
   return (
     <header className="site-header mo-left header navstyle1 header-bottom">
@@ -16,7 +17,7 @@ export default function Header6() {
             {/* website logo */}
             <div className="logo-header mostion logo-dark">
               <Link href={`/`}>
-                <img alt="" src="/images/logo-4.png" width="258" height="75" />
+                <img alt="" src="/images/logo.png" width="258" height="75" />
               </Link>
             </div>
             {/* nav toggle button */}
@@ -35,7 +36,7 @@ export default function Header6() {
               <span />
             </button>
             {/* extra nav */}
-            <div className="extra-nav">
+            {/* <div className="extra-nav">
               <div className="extra-cell">
                 <button
                   id="quik-search-btn"
@@ -45,7 +46,7 @@ export default function Header6() {
                   <i className="la la-search" />
                 </button>
               </div>
-            </div>
+            </div> */}
             {/* Quik search */}
 
             {/* main nav */}
@@ -57,14 +58,14 @@ export default function Header6() {
                 <Link href={`/`}>
                   <img
                     alt=""
-                    src="/images/logo-4.png"
+                    src="/images/logo.png"
                     width="258"
                     height="75"
                   />
                 </Link>
               </div>
               <ul className="nav navbar-nav">
-                <Nav />
+                <Customnav />
               </ul>
               <div className="dlab-social-icon">
                 <ul>
