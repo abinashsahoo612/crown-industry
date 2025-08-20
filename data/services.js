@@ -183,45 +183,45 @@ export const serviceItems = [
   {
     id: 27,
     imgSrc: "/images/our-work/solarplant/pic1.jpg",
-    title: "Solar Panels",
+    title: "Sliding door",
     animationClass: "fadeInLeft",
     delay: "0.3s",
   },
   {
     id: 28,
     imgSrc: "/images/our-work/solarplant/pic6.jpg",
-    title: "Wind Turbines",
+    title: "French door",
     animationClass: "fadeInDown",
     delay: "0.6s",
   },
   {
     id: 29,
     imgSrc: "/images/our-work/solarplant/pic3.jpg",
-    title: "Green Equipment",
+    title: "UPVC door",
     animationClass: "fadeInRight",
     delay: "0.3s",
   },
   {
     id: 30,
     imgSrc: "/images/our-work/solarplant/pic4.jpg",
-    title: "Installation",
+    title: "Wood finish UPVC",
     animationClass: "fadeInLeft",
     delay: "0.3s",
   },
   {
     id: 31,
     imgSrc: "/images/our-work/solarplant/pic5.jpg",
-    title: "Maintenance",
+    title: "Washroom ventilator",
     animationClass: "fadeInUp",
     delay: "0.6s",
   },
-  {
-    id: 32,
-    imgSrc: "/images/our-work/solarplant/pic2.jpg",
-    title: "Monitoring",
-    animationClass: "fadeInRight",
-    delay: "0.3s",
-  },
+  // {
+  //   id: 32,
+  //   imgSrc: "/images/our-work/solarplant/pic2.jpg",
+  //   title: "Monitoring",
+  //   animationClass: "fadeInRight",
+  //   delay: "0.3s",
+  // },
 ];
 
 export const serviceItems2 = [
@@ -255,98 +255,66 @@ export const serviceItems3 = [
   {
     id: 37,
     imgSrc: "/images/our-work/solarplant/pic1.jpg",
-    title: "Wind Turbines",
+    title: "Keeps Insect Out",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Our uPVC doors and windows are designed with tight seals and mesh options to keep insects outside, ensuring a comfortable and pest-free home.",
     delay: "0.3s",
   },
   {
     id: 38,
     imgSrc: "/images/our-work/solarplant/pic2.jpg",
-    title: "Solar Panels",
+    title: "Dust Resistant",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Engineered for a perfect fit, our products prevent dust from entering your space, keeping your interiors cleaner and healthier.",
     delay: "0.6s",
   },
   {
     id: 39,
     imgSrc: "/images/our-work/solarplant/pic3.jpg",
-    title: "Maintenance",
+    title: "Improve Homesecurity",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Enhanced locking systems and robust uPVC profiles provide improved security, giving you peace of mind for your home and family.",
     delay: "0.9s",
   },
   {
     id: 40,
     imgSrc: "/images/our-work/solarplant/pic1.jpg",
-    title: "Wind Turbines",
+    title: "Large Opening and Ample Sunlight",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Enjoy spacious openings and abundant natural light with our wide uPVC doors and windows, designed to brighten up your living spaces.",
     delay: "0.3s",
   },
   {
     id: 41,
     imgSrc: "/images/our-work/solarplant/pic2.jpg",
-    title: "Solar Panels",
+    title: "Gracefull and Effortless Operation",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Smooth mechanisms and quality hardware ensure our doors and windows open and close effortlessly, adding convenience to your daily life.",
     delay: "0.6s",
   },
   {
     id: 42,
-    imgSrc: "/images/our-work/solarplant/pic3.jpg",
-    title: "Maintenance",
+    imgSrc: "/images/our-work/solarplant/pic2.jpg",
+    title: "Noise Insulation",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.9s",
+      "Our uPVC solutions offer excellent noise insulation, reducing outside disturbances and creating a peaceful indoor environment.",
+    delay: "0.6s",
   },
   {
     id: 43,
-    imgSrc: "/images/our-work/solarplant/pic1.jpg",
-    title: "Wind Turbines",
+    imgSrc: "/images/our-work/solarplant/pic2.jpg",
+    title: "Storm Resistant",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.3s",
+      "Built to withstand harsh weather, our doors and windows provide reliable protection against storms and strong winds.",
+    delay: "0.6s",
   },
   {
     id: 44,
     imgSrc: "/images/our-work/solarplant/pic2.jpg",
-    title: "Solar Panels",
+    title: "Rainwater Insulation",
     description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
+      "Advanced sealing technology keeps rainwater out, ensuring your interiors stay dry and protected during heavy showers.",
     delay: "0.6s",
-  },
-  {
-    id: 45,
-    imgSrc: "/images/our-work/solarplant/pic3.jpg",
-    title: "Maintenance",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.9s",
-  },
-  {
-    id: 46,
-    imgSrc: "/images/our-work/solarplant/pic1.jpg",
-    title: "Wind Turbines",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.3s",
-  },
-  {
-    id: 47,
-    imgSrc: "/images/our-work/solarplant/pic2.jpg",
-    title: "Solar Panels",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.6s",
-  },
-  {
-    id: 48,
-    imgSrc: "/images/our-work/solarplant/pic3.jpg",
-    title: "Maintenance",
-    description:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the book.",
-    delay: "0.9s",
   },
 ];
 export const servicesData = [
@@ -635,7 +603,6 @@ export const galleryItems = [
 ];
 
 export const services5 = [
- 
   {
     id: 84,
     name: "02",
