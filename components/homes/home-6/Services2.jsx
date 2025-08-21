@@ -9,11 +9,12 @@ export default function Services2() {
     <div className="section-full bg-gray content-inner-2 about-carousel-ser">
       <div className="container">
         <div className="section-head text-center">
-          <h2 className="title">Our Services</h2>
+          <h2 className="title">Features & Benefits</h2>
           <p>
-            There are many variations of passages of Lorem Ipsum typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            Our high-performance doors add an architectural dimension to your
+            space. They keep out street noise, dust, pollution, rain and gale
+            force winds. At the same time, they are energy efficient, low
+            maintenance, and long-lasting.
           </p>
         </div>
         <Swiper
@@ -53,7 +54,7 @@ export default function Services2() {
               data-wow-delay={item.delay}
             >
               <div className="dlab-box service-media-bx">
-                <div className="dlab-media dlab-img-effect zoom">
+                {/* <div className="dlab-media dlab-img-effect zoom">
                   <Link href={`/services-details/${item.title}`}>
                     <Image
                       src={item.imgSrc}
@@ -62,7 +63,7 @@ export default function Services2() {
                       alt={item.title}
                     />
                   </Link>
-                </div>
+                </div> */}
                 <div className="dlab-info text-center">
                   <h2 className="dlab-title">
                     <Link href={`/services-details/${item.title}`}>
@@ -70,12 +71,12 @@ export default function Services2() {
                     </Link>
                   </h2>
                   <p>{item.description}</p>
-                  <Link
+                  {/* <Link
                     href={`/services-details/${item.title}`}
                     className="site-button btnhover15"
                   >
                     Read More
-                  </Link>
+                  </Link> */}
                 </div>
               </div>
             </SwiperSlide>

@@ -26,12 +26,12 @@ export default function page() {
           <div className="content-block">
             <About />
             <Cta />
-            <Services />
-            <Team />
+            {/* <Services /> */}
+            {/* <Team /> */}
             <Services2 />
             <Projects />
-            <Testimonials />
-            <Blogs />
+            {/* <Testimonials />
+            <Blogs /> */}
           </div>
         </div>
         <Footer6 />

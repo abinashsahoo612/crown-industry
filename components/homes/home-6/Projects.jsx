@@ -11,14 +11,52 @@ export default function Projects() {
         <div className="section-head text-center">
           <h2 className="title">Our Project</h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            Our projects reflect our commitment to quality and customer
+            satisfaction. We’re proud to have earned excellent feedback from
+            clients who appreciate our attention to detail
           </p>
         </div>
         <div className="row">
+          <div className="col-lg-6 col-md-12 mb-4 text-center">
+            <video
+              width="100%"
+              height="auto"
+              controls
+              autoPlay
+              style={{
+                maxWidth: "100%",
+                height: "280px",
+                borderRadius: "12px",
+                boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
+                background: "#000",
+                objectFit: "cover",
+              }}
+            >
+              <source src="/video/project1.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+          <div className="col-lg-6 col-md-12 mb-4 text-center">
+            <video
+              width="100%"
+              height="auto"
+              controls
+              autoPlay
+              style={{
+                maxWidth: "100%",
+                height: "280px",
+                borderRadius: "12px",
+                boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
+                background: "#000",
+                objectFit: "cover",
+              }}
+            >
+              <source src="/video/project2.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
           <div className="col-lg-12 col-md-12">
-            <Swiper
+            {/* <Swiper
               slidesPerView={4}
               spaceBetween={30}
               slidesPerGroup={1}
@@ -72,7 +110,7 @@ export default function Projects() {
                   </div>
                 </SwiperSlide>
               ))}
-            </Swiper>
+            </Swiper> */}
           </div>
         </div>
       </div>
