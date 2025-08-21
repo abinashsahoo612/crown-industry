@@ -119,8 +119,8 @@ export default function Contact4() {
                         Email:
                       </h6>
                       <p>
-                        <a href="mailto:someone@example.com">
-                          knifegates@magdaleneindustries.com
+                        <a href="mailto:crowntechnogoa@gmail.com">
+                          crowntechnogoa@gmail.com
                         </a>
                       </p>
                     </div>
@@ -134,7 +134,7 @@ export default function Contact4() {
                     <div className="icon-content">
                       <h6 className="text-uppercase m-tb0 dlab-tilte">PHONE</h6>
                       <p>
-                        <a href="tel:+4733378901">+91 91766 14250</a>
+                        <a href="tel:+917700005459">+91 77000 05459</a>
                       </p>
                     </div>
                   </li>
@@ -166,19 +166,19 @@ export default function Contact4() {
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7772.330837559481!2d80.1527983425922!3d13.088700698950095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo%2C11%2C%20MUNUSAMY%20STREET%2C%201st%20Cross%2C%20Vanagaram%20Road%2C%20Athipet%2C%20Chennai%20-%20600%20058.!5e0!3m2!1sen!2sin!4v1753955880453!5m2!1sen!2sin"
                 className="align-self-stretch radius-sm"
-                style={{ border: 0, width: "100%", minHeight: "50%" }}
+                style={{ border: 0, width: "100%", minHeight: "100%" }}
                 allowFullScreen=""
               />
-              <iframe
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7772.330837559481!2d80.1527983425922!3d13.088700698950095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo%2C11%2C%20MUNUSAMY%20STREET%2C%201st%20Cross%2C%20Vanagaram%20Road%2C%20Athipet%2C%20Chennai%20-%20600%20058.!5e0!3m2!1sen!2sin!4v1753955976100!5m2!1sen!2sin"
                 className="align-self-stretch radius-sm"
                 style={{ border: 0, width: "100%", minHeight: "50%" }}
                 allowFullScreen=""
-              />
+              /> */}
             </div>
             {/* right part END */}
           </div>
-          <div className="site-footer style1 bg-grey">
+          {/* <div className="site-footer style1 bg-grey">
             <div className="section-full p-t50 p-b20 text-white  footer-info-bar">
               <div className="container">
                 <div className="row">
@@ -273,11 +273,11 @@ export default function Contact4() {
                       <p className="op7">Sunday - Close</p>
                     </div>
                   </div>
-                </div> */}
+                </div> 
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </>
