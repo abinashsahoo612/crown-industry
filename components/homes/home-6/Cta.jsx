@@ -11,11 +11,13 @@ export default function Cta() {
         <div className="row">
           <div className="col-lg-9 text-white">
             <h2 className="title">
-              Go Solar & Save 10-30%* on Your Energy Rate
+              Transform Your Space with Premium uPVC Doors & Windows
             </h2>
             <p className="m-b0">
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry.
+              Discover our premium uPVC range—washroom ventilators, sliding
+              doors, French doors, UPVC doors, and elegant wood finish options.
+              Built for durability, energy efficiency, and style, each solution
+              is tailored to your space and taste.
             </p>
           </div>
           <div className="col-lg-3 d-flex">

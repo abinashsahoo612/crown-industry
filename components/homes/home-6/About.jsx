@@ -7,11 +7,13 @@ export default function About() {
     <div className="section-full content-inner bg-white">
       <div className="container">
         <div className="section-head text-black text-center">
-          <h2 className="title">Quality With Dedication</h2>
+          <h2 className="title">
+            Premium uPVC Doors & Windows for Every Space
+          </h2>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry has been the industry's standard dummy text ever since the
-            been when an unknown printer.
+            Discover premium uPVC washroom ventilators, sliding doors, French
+            doors, and wood finish options—crafted for style, durability, and a
+            perfect fit for your space.
           </p>
         </div>
         <div className="row">
