@@ -58,7 +58,7 @@ export default function Header6() {
                 <Link href={`/`}>
                   <img
                     alt=""
-                    src="/images/logo.png"
+                    src="/images/logo-4.png"
                     width="258"
                     height="75"
                   />
