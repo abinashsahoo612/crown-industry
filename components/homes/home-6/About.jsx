@@ -27,7 +27,13 @@ export default function About() {
               <div className="dlab-box service-box-3">
                 <div className="dlab-media radius-sm dlab-img-overlay1 zoom dlab-img-effect">
                   <Link href={`/services-details/${item.title}`}>
-                    <Image src={item.imgSrc} width={700} height={500} alt="" />
+                    <Image
+                      src={item.imgSrc}
+                      width={700}
+                      height={500}
+                      alt=""
+                      style={{ height: "270px" }}
+                    />
                   </Link>
                 </div>
                 <div className="dlab-info">
