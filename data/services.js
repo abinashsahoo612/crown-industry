@@ -215,13 +215,13 @@ export const serviceItems = [
     animationClass: "fadeInUp",
     delay: "0.6s",
   },
-  // {
-  //   id: 32,
-  //   imgSrc: "/images/our-work/solarplant/pic2.jpg",
-  //   title: "Monitoring",
-  //   animationClass: "fadeInRight",
-  //   delay: "0.3s",
-  // },
+  {
+    id: 32,
+    imgSrc: "/images/our-work/solarplant/pic2.jpg",
+    title: "PVC Window",
+    animationClass: "fadeInRight",
+    delay: "0.3s",
+  },
 ];
 
 export const serviceItems2 = [

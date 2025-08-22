@@ -13449,12 +13449,12 @@ ol.commentlist li .star-rating {
 }
 .fixed-certificates {
   position: absolute;
-      top: 10%;
-    right: 10%;
+  top: 10%;
+  right: 10%;
   z-index: 2;
   display: flex;
   gap: 16px;
-  
+
   justify-content: center;
   align-items: center;
   pointer-events: none;
@@ -14548,9 +14548,9 @@ ol.commentlist li .star-rating {
 .side-rounded-card {
   border-radius: 10px 0 10px 0;
 }
- .navstyle4 {
+.navstyle4 {
   background-color: #312f2f;
- }
+}
 @media only screen and (max-width: 991px) {
   .content-bx1 {
     padding-left: 0;
@@ -14637,7 +14637,7 @@ ol.commentlist li .star-rating {
   .navstyle3 .header-nav .nav > li .mega-menu > li ul a:hover {
     background-color: rgba(0, 0, 0, 0.05);
   }
- 
+
   .navstyle4 .header-nav .nav > li > a:after {
     width: 0;
     left: auto;

@@ -1471,8 +1471,17 @@ h6 {
 }
 
 /* Services */
+.height-350 {
+  height: 350px;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+}
+
 .service-media-bx {
-  padding: 25px;
+  padding: 0px 25px 0px 25px;
   background-color: #fff;
   border-radius: 4px;
   box-shadow: 6px 6px 35px 0 rgba(0, 0, 0, 0.05);

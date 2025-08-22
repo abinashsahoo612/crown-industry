@@ -10,7 +10,7 @@ export const footerLinks = [
 ];
 export const customFooterLinks = [
   { href: "/product", text: "Products" },
-  { href: "/services", text: "Services" },
+  // { href: "/services", text: "Services" },
   { href: "/gallery", text: "Gallery" },
   { href: "/about", text: "About Us" },
   // { href: "enquiry", text: "Enquiry" },

@@ -23,6 +23,7 @@ export default function Projects() {
               height="auto"
               controls
               autoPlay
+              muted
               style={{
                 maxWidth: "100%",
                 height: "280px",
@@ -42,6 +43,7 @@ export default function Projects() {
               height="auto"
               controls
               autoPlay
+              muted
               style={{
                 maxWidth: "100%",
                 height: "280px",

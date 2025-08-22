@@ -53,7 +53,7 @@ export default function Services2() {
               data-wow-duration="2s"
               data-wow-delay={item.delay}
             >
-              <div className="dlab-box service-media-bx">
+              <div className="dlab-box service-media-bx height-350 flex-center">
                 {/* <div className="dlab-media dlab-img-effect zoom">
                   <Link href={`/services-details/${item.title}`}>
                     <Image

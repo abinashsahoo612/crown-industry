@@ -421,7 +421,7 @@ export const onepageNavItems = [
 export const customNavItems = [
   { href: "/", text: "Home" },
   { href: "/product", text: "Products" },
-  { href: "/services", text: "Services" },
+  // { href: "/services", text: "Services" },
   { href: "/gallery", text: "Gallery" },
   // { href: "/enquiry", text: "Enquiry" },
   { href: "/about", text: "About Us" },

@@ -1,4 +1,4 @@
-'use client';
+"use client";
 import { useRef } from "react";
 import LightGallery from "lightgallery/react";
 import lgThumbnail from "lightgallery/plugins/thumbnail";
@@ -10,18 +10,19 @@ import Image from "next/image";
 import Footer from "@/components/footers/Footer11";
 import Header10 from "@/components/headers/Header10";
 import Hero20 from "@/components/homes/home-20/Hero";
+import Header6 from "@/components/headers/Header6";
 
 const images = [
-  "img1.jpg",
-  "img2.jpg",
-  "img3.jpg",
-  "img4.jpg",
-  "img5.jpg",
-  "img6.jpg",
-  "img7.jpg",
-  "img8.jpg",
-  "img9.jpg",
-  "img10.jpg",
+  "slide1.jpg",
+  "slide2.webp",
+  "slide3.avif",
+  "slide4.webp",
+  "slide5.jpg",
+  "slide6.avif",
+  "slide7.jpg",
+  "slide8.png",
+  "slide9.png",
+  "slide10.png",
 ];
 
 export default function GalleryPage() {
@@ -29,7 +30,7 @@ export default function GalleryPage() {
 
   return (
     <div className="page-wraper  ">
-      <Header10 />
+      <Header6 />
       <div className="page-content bg-white">
         <div style={{ padding: "40px 0", background: "#f8f9fa" }}>
           <div style={{ maxWidth: 1200, margin: "0 auto" }}>
@@ -66,7 +67,11 @@ export default function GalleryPage() {
                       className="gallery-item"
                       data-src={`/images/gallery/${img}`}
                       data-lg-size="1400-900"
-                      style={{ display: "block", position: "relative", height: "100%" }}
+                      style={{
+                        display: "block",
+                        position: "relative",
+                        height: "100%",
+                      }}
                     >
                       <Image
                         src={`/images/gallery/${img}`}
@@ -78,7 +83,8 @@ export default function GalleryPage() {
                           height: "400px",
                           objectFit: "cover",
                           display: "block",
-                          transition: "transform 0.4s cubic-bezier(.4,2,.6,1), filter 0.3s",
+                          transition:
+                            "transform 0.4s cubic-bezier(.4,2,.6,1), filter 0.3s",
                         }}
                       />
                       <span className="zoom-plus-icon">
@@ -87,7 +93,7 @@ export default function GalleryPage() {
                     </a>
                     <style jsx>{`
                       .gallery-card:hover {
-                        box-shadow: 0 12px 40px rgba(0,0,0,0.22);
+                        box-shadow: 0 12px 40px rgba(0, 0, 0, 0.22);
                         transform: translateY(-8px) scale(1.04);
                       }
                       .gallery-item .zoom-plus-icon {
@@ -98,7 +104,7 @@ export default function GalleryPage() {
                         justify-content: center;
                         opacity: 0;
                         transition: opacity 0.3s;
-                        background: rgba(0,0,0,0.25);
+                        background: rgba(0, 0, 0, 0.25);
                         backdrop-filter: blur(2.5px);
                         z-index: 2;
                       }
@@ -110,14 +116,14 @@ export default function GalleryPage() {
                         height: 64px;
                         border-radius: 50%;
                         border: 2px solid #fff;
-                        background: rgba(0,0,0,0.35);
+                        background: rgba(0, 0, 0, 0.35);
                         display: flex;
                         align-items: center;
                         justify-content: center;
                         font-size: 2.5rem;
                         color: #fff;
                         font-weight: 700;
-                        box-shadow: 0 2px 8px rgba(0,0,0,0.18);
+                        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.18);
                         transition: background 0.2s, border 0.2s;
                         user-select: none;
                       }
