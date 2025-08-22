@@ -16,33 +16,50 @@ export default function About() {
             <div className="row d-flex">
               <div className="col-lg-6 col-md-12 m-b30">
                 <div className="video-bx">
-                  <Image
-                    alt="Signature"
-                    src="/images/about/pic5.jpg"
-                    width="1000"
-                    height="674"
-                  />
-                  <div className="video-play-icon">
-                    <a
-                      onClick={() => setOpen(true)}
-                      className="popup-youtube video bg-primary"
-                    >
-                      <i className="fas fa-play" />
-                    </a>
-                  </div>
+                  <video
+                    width="100%"
+                    height="auto"
+                    controls
+                    autoPlay
+                    muted
+                    style={{
+                      maxWidth: "100%",
+                      height: "470px",
+                      borderRadius: "12px",
+                      boxShadow: "0 2px 16px rgba(0,0,0,0.15)",
+                      background: "#000",
+                      objectFit: "cover",
+                    }}
+                  >
+                    <source src="/video/industry.mp4" type="video/mp4" />
+                    Your browser does not support the video tag.
+                  </video>
                 </div>
               </div>
               <div className="col-lg-6 col-md-12 m-b30 align-self-center video-infobx">
                 <div className="content-bx1">
-                 
                   <p className="m-b30">
-                    At Magdalene Industries, precision isn’t just a goal — it’s our standard. With over three decades of specialized experience in Knife Gate Valve manufacturing, we deliver solutions that drive performance across industries.
+                    At Crown Industries, we specialize in designing and
+                    manufacturing high-quality uPVC doors, windows, and
+                    ventilators tailored to modern living. Our product range
+                    includes washroom ventilators, sliding doors, French doors,
+                    UPVC doors, and elegant wood finish UPVC solutions—each
+                    crafted for durability, style, and energy efficiency.
                   </p>
                   <div className="alert alert-warning no-bg">
-                    Backed by two fully equipped facilities covering 23,000 sq. ft. and a dedicated two-shift workforce, we ensure every product meets the highest standards of quality, durability, and timely delivery.
+                    We understand that every space is unique. That’s why our
+                    experienced team offers professional fitting and
+                    installation services, ensuring every product is customized
+                    and installed to meet your exact requirements and deliver
+                    lasting performance.
                   </div>
                   <p className="m-b30">
-                    Our passion for innovation and commitment to excellence have earned us the trust of customers worldwide — and we’re just getting started.
+                    With a commitment to quality, innovation, and customer
+                    satisfaction, Crown Industries has become a trusted partner
+                    for homeowners, architects, and builders. From consultation
+                    to installation, we’re dedicated to enhancing your spaces
+                    with products that combine functionality, aesthetics, and
+                    reliability.
                   </p>
                 </div>
               </div>

@@ -50,8 +50,8 @@ export default function Footer11() {
                   <ul>
                     <li>
                       <i className="ti-location-pin" />
-                      <strong>address</strong> No,11, MUNUSAMY STREET, 1st
-                      Cross, Vanagaram Road, Athipet, Chennai - 600 058.
+                      <strong>address</strong> D2 - 18, Sancoale Industrial
+                      Estate, Zuarinagar, Sancoale, Goa 403726
                     </li>
                     <li>
                       <i className="ti-mobile" />

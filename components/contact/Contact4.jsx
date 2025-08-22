@@ -102,9 +102,8 @@ export default function Contact4() {
                         Address:
                       </h6>
                       <p>
-                        No,11, MUNUSAMY STREET, 1st Cross, Vanagaram Road,
-                        Athipet, Chennai – 600 058. Send mail:
-                        knifegates@magdaleneindustries.com
+                        D2 - 18, Sancoale Industrial Estate, Zuarinagar,
+                        Sancoale, Goa 403726.
                       </p>
                     </div>
                   </li>
@@ -164,7 +163,7 @@ export default function Contact4() {
             {/* right part start */}
             <div className="col-lg-6 m-b30 ">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7772.330837559481!2d80.1527983425922!3d13.088700698950095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sNo%2C11%2C%20MUNUSAMY%20STREET%2C%201st%20Cross%2C%20Vanagaram%20Road%2C%20Athipet%2C%20Chennai%20-%20600%20058.!5e0!3m2!1sen!2sin!4v1753955880453!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed/v1/place?q=Crown%20Industries%20Gos&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
                 className="align-self-stretch radius-sm"
                 style={{ border: 0, width: "100%", minHeight: "100%" }}
                 allowFullScreen=""
