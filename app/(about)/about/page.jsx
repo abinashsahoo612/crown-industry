@@ -15,19 +15,19 @@ import Faq1 from "@/components/faq/Faq1";
 import Header6 from "@/components/headers/Header6";
 
 export const metadata = {
-  title: "About || Industry - Factory & Industrial React Nextjs Template",
-  description: "Industry - Factory & Industrial React Nextjs Template",
+  title: "Crown Industry - Window Industry",
+  description: "Crown Industry - Window Industry",
 };
 const images = [
   {
-    src: "/images/about/about_img5.png",
+    src: "/images/product/mission.png",
     alt: "Image 1",
     title: "Our Vision",
     description:
       "To set the benchmark for quality and innovation in uPVC doors, windows, and ventilators, making every space more comfortable and secure.",
   },
   {
-    src: "/images/about/about_img6.png",
+    src: "/images/product/frenchdoor.png",
     alt: "Image 2",
     title: "Our Mission",
     description:
@@ -53,7 +53,10 @@ export default function page() {
                   data-wow-delay="0.2s"
                 >
                   <div className="dlab-box m-b30 dlab-team1">
-                    <div className="dlab-media">
+                    <div
+                      className="dlab-media"
+                      style={{ height: "358px", width: "460px" }}
+                    >
                       <Image
                         width={358}
                         height={460}

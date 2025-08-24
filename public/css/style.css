@@ -14801,3 +14801,29 @@ input[type="radio"] + label:hover:before {
 .dlab-tabs.border-top .nav-tabs > li.active > a {
   border-color: var(--color-primary);
 }
+
+.crown-flex-center {
+  display: flex;
+  align-items: center;
+}
+
+.crown-logo-header-text {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  column-gap: 0px;
+  line-height: 18px;
+  color: #0086f0;
+  letter-spacing: 1px;
+  margin-top:12px;
+}
+
+.crown-logo-header-header-1 {
+  font-size: 23px;
+  font-weight: 700;
+}
+
+.crown-logo-header-header-2 {
+  font-size: 15px;
+  font-weight: 500;
+}

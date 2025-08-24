@@ -11,28 +11,40 @@ export default function Faq1() {
   const [isOpen, setOpen] = useState(false);
   const images = [
     {
-      src: "/images/about/about_img1.png",
-      alt: "Washroom Ventilator",
-      title: "Washroom Ventilator",
-      description: "Engineered for optimal airflow and durability.",
-    },
-    {
-      src: "/images/about/about_img2.png",
+      src: "/images/product/slidingdoor.png",
       alt: "Sliding Door",
       title: "Sliding Door",
-      description: "Smooth operation and modern design for any space.",
+      description:
+        "Bring a perfect blend of functionality and style to your interiors with our Sliding Doors. Ideal for modern homes and office spaces, these doors save space while adding an elegant touch. Made from high-quality materials, the sliding mechanism ensures smooth and noiseless operation, making them a practical choice for rooms, balconies, or wardrobes. With multiple design and finish options, our sliding doors enhance the beauty of any space while providing ease of access.",
     },
     {
-      src: "/images/about/about_img3.png",
+      src: "/images/product/frenchdoor.png",
       alt: "French Door",
       title: "French Door",
-      description: "Elegant and secure, enhancing your interiors.",
+      description:
+        "Redefine elegance with our classic French Doors that blend timeless style with modern engineering. Featuring wide glass panels framed with UPVC or wood finish, French doors allow natural light to flow indoors, creating a bright and welcoming ambiance. Perfect for connecting interior and exterior spaces, these doors provide superior insulation, durability, and aesthetic appeal.",
     },
     {
-      src: "/images/about/about_img4.png",
-      alt: "Wood Finish UPVC",
+      title: "UPVC Door",
+
+      alt: "UPVC Door",
+      src: "/images/product/upvcdoor.png",
+      description:
+        "Our UPVC Doors are designed for strength, style, and sustainability. Crafted with premium-grade UPVC, these doors offer excellent insulation against noise, heat, and dust while requiring minimal maintenance. Resistant to termites, rust, and moisture, they are perfect for both interior and exterior use. Available in multiple colors, textures, and designs, UPVC doors combine functionality with a modern aesthetic, making them an ideal long-term investment for your home or office.",
+    },
+    {
       title: "Wood Finish UPVC",
-      description: "Classic wood look with the benefits of UPVC.",
+      alt: "Wood Finish UPVC",
+      src: "/images/product/woodupvc.png",
+      description:
+        "Get the natural warmth of wood with the durability of UPVC through our Wood Finish UPVC Doors & Windows. These products perfectly mimic the look and feel of real wood while offering the advantages of UPVC—resistance to termites, moisture, and fading. Ideal for homeowners who love wooden aesthetics without the hassle of maintenance, our wood finish UPVC range adds elegance and sophistication to any space.",
+    },
+    {
+      alt: "Washroom Ventilator",
+      title: "Washroom Ventilator",
+      src: "/images/product/ventilator.png",
+      description:
+        "Enhance ventilation and maintain hygiene with our high-quality Washroom Ventilator. Designed to allow maximum air circulation while ensuring privacy, this ventilator is made from durable materials that resist moisture and corrosion. Its sleek frame and smooth finish complement modern bathroom interiors, while the easy-to-operate design makes cleaning and maintenance effortless. Whether for homes, offices, or commercial spaces, our ventilators ensure a fresh and odor-free washroom environment all year round.",
     },
   ];
   return (
