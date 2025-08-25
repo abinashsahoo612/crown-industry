@@ -15,10 +15,20 @@ export default function Header6() {
         <div className="main-bar clearfix bg-primary">
           <div className="container clearfix">
             {/* website logo */}
-            <div className="logo-header mostion logo-dark">
+            <div className="logo-header mostion logo-dark crown-flex-center">
               <Link href={`/`}>
-                <img alt="" src="/images/logo.png" width="258" height="75" />
+                <img
+                  alt=""
+                  src="/images/logo.png"
+                  width="258"
+                  height="75"
+                  style={{ width: "70px", height: "67px" }}
+                />
               </Link>
+              <div className="crown-logo-header-text">
+                <div className="crown-logo-header-header-1">Crown</div>
+                <div className="crown-logo-header-header-2">Technoplast</div>
+              </div>
             </div>
             {/* nav toggle button */}
             <button

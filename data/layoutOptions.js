@@ -40,7 +40,7 @@ export const skins = [
     colorTheme: "skin-4-theme",
     logoSelector: [".logo-dark img", ".logo-white img", ".logo-center .logo-c"],
     logoImage: [
-      "/images/logo-4.png",
+      "/images/logo-4.jpeg",
       "/images/logo-white-4.png",
       "/images/logo-center-4.png",
     ],

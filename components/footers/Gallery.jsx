@@ -73,7 +73,11 @@ export default function GalleryComponent() {
     <ul className="lightgallery">
       <GallaryWrapper>
         {images.map((item, i) => (
-          <li key={i} className="img-effect2">
+          <li
+            key={i}
+            className="img-effect2"
+            style={{ height: "100px", width: "100px" }}
+          >
             <span
               data-exthumbimage={item.src}
               data-src={item.src}

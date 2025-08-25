@@ -68,11 +68,11 @@ export default function Hero() {
             <div className="inner sliderStyle4">
               <h1>{slide.title}</h1>
               <p>{slide.description}</p>
-              <Link href={"/about-1"}>
+              <Link href={"/about"}>
                 <button className="site-button">ABOUT US</button>
               </Link>
-              <Link href={"/services-1"}>
-                <button className="site-button">OUR SERVICES</button>
+              <Link href={"/product"}>
+                <button className="site-button">OUR PRODUCTS</button>
               </Link>
             </div>
           </SwiperSlide>

@@ -106,14 +106,14 @@ export default function Footer11() {
             </div>
             <div className="col-md-6 col-sm-6 text-right">
               <div className="widget-link">
-                <ul>
+                {/* <ul>
                   <li>
                     <Link href={`/help-desk`}> Help Desk</Link>
                   </li>
                   <li>
                     <Link href={`/privacy-policy`}> Privacy Policy</Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>
