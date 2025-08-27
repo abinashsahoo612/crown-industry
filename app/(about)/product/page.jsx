@@ -12,35 +12,107 @@ export const metadata = {
 const productList = [
   {
     altText: "Washroom Ventilator",
+    header: "Washroom Ventilator",
     imageSrc: "/images/product/ventilator.png",
+    bgColor: "#f6f3f9",
     description:
-      "Enhance ventilation and maintain hygiene with our high-quality Washroom Ventilator. Designed to allow maximum air circulation while ensuring privacy, this ventilator is made from durable materials that resist moisture and corrosion. Its sleek frame and smooth finish complement modern bathroom interiors, while the easy-to-operate design makes cleaning and maintenance effortless. Whether for homes, offices, or commercial spaces, our ventilators ensure a fresh and odor-free washroom environment all year round.",
+      "Improve washroom ventilation with our durable, moisture-resistant ventilator. Designed for maximum airflow and privacy, it features a sleek finish that complements modern interiors. Easy to clean and maintain, it keeps spaces fresh and odor-free year-round",
   },
   {
     altText: "Sliding Door",
+    header: "Sliding Door",
     imageSrc: "/images/product/slidingdoor.png",
+    bgColor: "#edf2fc",
     description:
-      "Bring a perfect blend of functionality and style to your interiors with our Sliding Doors. Ideal for modern homes and office spaces, these doors save space while adding an elegant touch. Made from high-quality materials, the sliding mechanism ensures smooth and noiseless operation, making them a practical choice for rooms, balconies, or wardrobes. With multiple design and finish options, our sliding doors enhance the beauty of any space while providing ease of access.",
+      "Add style and functionality with our space-saving Sliding Doors. Built with durable materials for smooth, silent operation, they suit rooms, balconies, and wardrobes while offering elegant design options to enhance any space.",
   },
   {
     altText: "French Door",
+    header: "French Door",
+    bgColor: "#f6f3f9",
     imageSrc: "/images/product/frenchdoor.png",
     description:
-      "Redefine elegance with our classic French Doors that blend timeless style with modern engineering. Featuring wide glass panels framed with UPVC or wood finish, French doors allow natural light to flow indoors, creating a bright and welcoming ambiance. Perfect for connecting interior and exterior spaces, these doors provide superior insulation, durability, and aesthetic appeal.",
+      "Redefine elegance with our French Doors, featuring wide glass panels in UPVC or wood finish. They brighten interiors with natural light while offering durability, insulation, and timeless style for both indoor and outdoor spaces.",
   },
   {
     altText: "UPVC Door",
+    header: "UPVC Door",
+    bgColor: "#edf2fc",
     imageSrc: "/images/product/upvcdoor.png",
     description:
-      "Our UPVC Doors are designed for strength, style, and sustainability. Crafted with premium-grade UPVC, these doors offer excellent insulation against noise, heat, and dust while requiring minimal maintenance. Resistant to termites, rust, and moisture, they are perfect for both interior and exterior use. Available in multiple colors, textures, and designs, UPVC doors combine functionality with a modern aesthetic, making them an ideal long-term investment for your home or office.",
+      "Our UPVC Doors combine strength, style, and low maintenance. Offering insulation from noise, heat, and dust, they resist rust, termites, and moisture—making them a durable choice for both interiors and exteriors with versatile design options.",
   },
   {
     altText: "Wood Finish UPVC",
+    header: "Wood Finish UPVC",
+    bgColor: "#f6f3f9",
     imageSrc: "/images/product/woodupvc.png",
     description:
-      "Get the natural warmth of wood with the durability of UPVC through our Wood Finish UPVC Doors & Windows. These products perfectly mimic the look and feel of real wood while offering the advantages of UPVC—resistance to termites, moisture, and fading. Ideal for homeowners who love wooden aesthetics without the hassle of maintenance, our wood finish UPVC range adds elegance and sophistication to any space.",
+      "Enjoy the warmth of wood with the durability of UPVC in our Wood Finish Doors & Windows. They replicate natural wood while resisting termites, moisture, and fading—offering elegant aesthetics with minimal maintenance.",
   },
 ];
+
+const productDescription = ({ product, left = false }) => {
+  return (
+    <div className="p-4" style={{ paddingLeft: left ? "80px !important" : "" }}>
+      <strong
+        style={{
+          fontSize: "1.5rem",
+          marginBottom: "12px",
+          display: "block",
+          fontWeight: "600",
+          color: "#697183",
+          lineHeight: "1.3",
+        }}
+      >
+        {product.header}
+      </strong>
+      <p
+        style={{
+          fontSize: "1.1rem",
+          marginBottom: 0,
+          color: "#697183",
+        }}
+      >
+        {product.description}
+      </p>
+    </div>
+  );
+};
+
+const productImageSection = ({ product }) => {
+  return (
+    <div
+      // className="p-4"
+      style={{
+        width: "100%",
+        height: "100%",
+        minHeight: 320,
+        position: "relative",
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "flex-end",
+        padding: "1.5rem 1.5rem 0px 1.5rem !important",
+      }}
+    >
+      <Image
+        alt={product.altText}
+        src={product.imageSrc}
+        width={700}
+        height={459}
+        style={{
+          objectFit: "fill",
+          width: "350px",
+          height: "350px",
+          borderTopRightRadius: "18px",
+          borderTopLeftRadius: "18px",
+          position: "relative",
+          boxShadow: "0 -10px 20px 0 rgba(0, 0, 0, .341)",
+        }}
+      />
+    </div>
+  );
+};
 
 export default function page() {
   return (
@@ -58,10 +130,10 @@ export default function page() {
             </div>
           </div>
           {productList.map((product, idx) => (
-            <div className="section-full overlay-white-middle content-inner">
+            <div className="section-full overlay-white-middle content-inner-4">
               <div className="container">
                 <div className="row justify-content-center">
-                  <div className="col-lg-10" style={{ width: "100%" }}>
+                  <div className="col-lg-10">
                     <div
                       className="card shadow"
                       style={{
@@ -69,81 +141,33 @@ export default function page() {
                         overflow: "hidden",
                         border: "none",
                         background: "#fff",
+                        backgroundColor: product.bgColor,
+                        height: "100%",
                       }}
                     >
-                      <div className="row align-items-center g-0">
+                      <div className="row  g-0" style={{ minHeight: "400px" }}>
                         {idx % 2 === 0 ? (
                           <>
                             <div className="col-md-6">
-                              <div
-                                style={{
-                                  width: "100%",
-                                  height: "100%",
-                                  minHeight: 320,
-                                  position: "relative",
-                                }}
-                              >
-                                <Image
-                                  alt={product.altText}
-                                  src={product.imageSrc}
-                                  width={700}
-                                  height={459}
-                                  style={{
-                                    objectFit: "cover",
-                                    width: "100%",
-                                    height: "100%",
-                                  }}
-                                />
-                              </div>
+                              {productImageSection({ product })}
                             </div>
-                            <div className="col-md-6">
-                              <div className="p-4">
-                                <p
-                                  style={{
-                                    fontSize: "1.1rem",
-                                    marginBottom: 0,
-                                  }}
-                                >
-                                  {product.description}
-                                </p>
-                              </div>
+                            <div
+                              className="col-md-6"
+                              style={{ display: "flex", alignItems: "center" }}
+                            >
+                              {productDescription({ product })}
                             </div>
                           </>
                         ) : (
                           <>
-                            <div className="col-md-6">
-                              <div className="p-4">
-                                <p
-                                  style={{
-                                    fontSize: "1.1rem",
-                                    marginBottom: 0,
-                                  }}
-                                >
-                                  {product.description}
-                                </p>
-                              </div>
+                            <div
+                              className="col-md-6"
+                              style={{ display: "flex", alignItems: "center" }}
+                            >
+                              {productDescription({ product, left: true })}
                             </div>
                             <div className="col-md-6">
-                              <div
-                                style={{
-                                  width: "100%",
-                                  height: "100%",
-                                  minHeight: 320,
-                                  position: "relative",
-                                }}
-                              >
-                                <Image
-                                  alt={product.altText}
-                                  src={product.imageSrc}
-                                  width={700}
-                                  height={459}
-                                  style={{
-                                    objectFit: "cover",
-                                    width: "100%",
-                                    height: "100%",
-                                  }}
-                                />
-                              </div>
+                              {productImageSection({ product })}
                             </div>
                           </>
                         )}

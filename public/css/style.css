@@ -11950,7 +11950,7 @@ footer .widget_services ul li a:hover {
   position: relative;
 }
 .section-full:last-child {
-  margin-bottom: -50px;
+  margin-bottom: 40px;
 }
 /*= Section Head Part =*/
 
@@ -13349,6 +13349,11 @@ ol.commentlist li .star-rating {
   padding-top: 100px;
   padding-bottom: 70px;
 }
+
+.content-inner-4 {
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
 .testimonial-five .owl-controls {
   margin-top: 0px;
 }
@@ -13474,7 +13479,7 @@ ol.commentlist li .star-rating {
     margin-bottom: 25px;
   }
   .section-full:last-child {
-    margin-bottom: -30px;
+    margin-bottom: 40px;
   }
   .content-inner {
     padding-bottom: 20px;
@@ -14815,7 +14820,7 @@ input[type="radio"] + label:hover:before {
   line-height: 18px;
   color: #0086f0;
   letter-spacing: 1px;
-  margin-top:12px;
+  margin-top: 12px;
 }
 
 .crown-logo-header-header-1 {
