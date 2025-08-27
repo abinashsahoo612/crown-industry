@@ -2,6 +2,7 @@
 
 import React from "react";
 import Link from "next/link";
+import Footer6 from "@/components/footers/Footer6";
 import ReCAPTCHA from "react-google-recaptcha";
 import Image from "next/image";
 import { Autoplay, Pagination } from "swiper/modules";
@@ -278,6 +279,7 @@ export default function Contact4() {
             </div>
           </div> */}
         </div>
+        <Footer6 />
       </div>
     </>
   );
