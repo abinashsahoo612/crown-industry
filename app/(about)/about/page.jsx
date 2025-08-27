@@ -24,14 +24,14 @@ const images = [
     alt: "Image 1",
     title: "Our Vision",
     description:
-      "To set the benchmark for quality and innovation in uPVC doors, windows, and ventilators, making every space more comfortable and secure.",
+      "To be a global leader in sustainable and innovative uPVC doors, windows, sliding systems, and ventilators — setting new standards in quality, design, and durability, while creating secure, energy-efficient, and inspiring spaces for modern living.",
   },
   {
     src: "/images/product/frenchdoor.png",
     alt: "Image 2",
     title: "Our Mission",
     description:
-      "Deliver reliable, stylish uPVC solutions and expert fitting services, always tailored to our customers’ needs.",
+      "To deliver reliable and stylish uPVC doors, windows, sliding systems, and ventilators with expert craftsmanship and customer-focused service — enhancing safety, comfort, and aesthetics while ensuring energy efficiency and long-lasting value.",
   },
 ];
 export default function page() {

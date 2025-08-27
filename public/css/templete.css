@@ -2606,7 +2606,7 @@ HOME 5 Box Header
 .service-box-3 .title a {
   color: #fff;
 }
-.service-box-3 .title:after {
+/* .service-box-3 .title:after {
   content: "\f105";
   width: 40px;
   height: 40px;
@@ -2620,7 +2620,7 @@ HOME 5 Box Header
   line-height: 40px;
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
-}
+} */
 .service-box.style4 .title {
   font-size: 20px;
   font-weight: 500;

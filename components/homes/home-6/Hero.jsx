@@ -13,28 +13,28 @@ const slidesData = [
       "Enjoy natural light and uninterrupted views with our quality sliding windows.",
     buttons: ["ABOUT US", "SERVICES"],
   },
-  // {
-  //   backgroundImage:
-  //     'url("/images/banner/banner2.jpeg") center center no-repeat',
-  //   title: "Premium Sliding Windows",
-  //   description:
-  //     "Enhance your space with durable, smooth, and elegant sliding windows.",
-  //   buttons: ["ABOUT US", "SERVICES"],
-  // },
-  // {
-  //   backgroundImage:
-  //     'url("/images/banner/banner3.jpeg") center center no-repeat',
-  //   title: "Elegant Window Designs",
-  //   description:
-  //     "Modern sliding solutions that add beauty and functionality to any room.",
-  //   buttons: ["ABOUT US", "SERVICES"],
-  // },
   {
     backgroundImage:
       'url("/images/banner/banner4.jpeg") center center no-repeat',
     title: "Strong & Stylish",
     description:
       "Built to last, our windows combine strength with a sleek appearance.",
+    buttons: ["ABOUT US", "SERVICES"],
+  },
+  {
+    backgroundImage:
+      'url("/images/banner/sliding-door.webp") center center no-repeat',
+    title: "Elegant Door Designs",
+    description:
+      "Modern sliding solutions that add beauty and functionality to any room.",
+    buttons: ["ABOUT US", "SERVICES"],
+  },
+  {
+    backgroundImage:
+      'url("/images/banner/sliding_windows.jpg") center center no-repeat',
+    title: "Premium Sliding Windows",
+    description:
+      "Enhance your space with durable, smooth, and elegant sliding windows.",
     buttons: ["ABOUT US", "SERVICES"],
   },
   // {
