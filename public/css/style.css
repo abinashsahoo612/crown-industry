@@ -14824,11 +14824,16 @@ input[type="radio"] + label:hover:before {
 }
 
 .crown-logo-header-header-1 {
+  font-family: "Montserrat", "Poppins", Arial, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-size: 23px;
-  font-weight: 700;
 }
 
 .crown-logo-header-header-2 {
   font-size: 15px;
+  font-family: "Montserrat", "Open Sans", Arial, sans-serif;
   font-weight: 500;
+  letter-spacing: 0.03em;
 }
